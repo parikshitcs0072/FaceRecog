@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc48821f-3028-4727-8c54-9222ebbdfcb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/FaceDetection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/haarcascade_eye.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/haarcascade_frontalface_default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/FaceDetectionFromCamera.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaceDetection/facerecof.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +19,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FaceDetection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FaceDetection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FaceDetection/FaceDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FaceDetectionFromCamera.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceDetection/FaceDetectionFromCamera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facerecof.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FaceDetection/facerecof.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#49#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FaceDetection/FaceDetection.py" />
+        <option value="$PROJECT_DIR$/FaceDetection/FaceDetectionFromCamera.py" />
+        <option value="$PROJECT_DIR$/FaceDetection/facerecof.py" />
       </list>
     </option>
   </component>
@@ -114,7 +137,7 @@
       <recent name="$PROJECT_DIR$/FaceDetection" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FaceDetection">
+  <component name="RunManager" selected="Python.facerecof">
     <configuration default="false" name="FaceDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,6 +151,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="facialrecog" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceDetection/FaceDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FaceDetectionFromCamera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceDetection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="facialrecog" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceDetection/FaceDetectionFromCamera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="facerecof" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceDetection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="facialrecog" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceDetection/facerecof.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -266,12 +323,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.FaceDetection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.FaceDetectionFromCamera" />
+      <item index="2" class="java.lang.String" itemvalue="Python.facerecof" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.FaceDetection" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.facerecof" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FaceDetectionFromCamera" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FaceDetection" />
       </list>
     </recent_temporary>
   </component>
@@ -335,12 +396,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection/FaceDetection.py">
+    <entry file="file://$PROJECT_DIR$/FaceDetection/FaceDetectionFromCamera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection/FaceDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection/facerecof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#49#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
